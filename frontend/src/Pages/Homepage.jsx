@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/homestyle.css';
 import logo from '../Assets/Logo.png';
-import winebott from '../Assets/winebottle.mp4';
+import winebott from '../Assets/winebottle-2.mp4';
 import { Link } from 'react-router-dom';
 import { auth } from '../firebase'; 
 
@@ -46,7 +46,7 @@ function Homepage() {
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/About">About</a></li>
-              <li><a href="#services">Services</a></li>
+              <li><a href="/services">Services</a></li>
               <li><a href="#blog">Blog</a></li>
             </ul>
           </div>

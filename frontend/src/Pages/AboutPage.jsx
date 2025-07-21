@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/homestyle.css'; 
 import logo from '../Assets/Logo.png';
-import winebott from '../Assets/winebottle.mp4';
+import winebott from '../Assets/winebottle-2.mp4';
 
 
 function AboutPage() {

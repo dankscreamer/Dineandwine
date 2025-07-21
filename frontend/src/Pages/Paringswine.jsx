@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../Styles/paringswine.css'; 
-import winebott from '../Assets/winebottle.mp4'; 
+import winebott from '../Assets/winebottle-2.mp4'; 
 import { Link } from 'react-router-dom';
 
 const WinePairing = () => {

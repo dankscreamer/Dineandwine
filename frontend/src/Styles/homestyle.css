@@ -83,7 +83,7 @@ body {
     border-radius: 0.5rem;
     color: #b30000;
     font-size: 1rem;
-    font-family: 'Courier New', Courier, monospace;
+    
     width: 12rem;
     cursor: pointer;
     box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.2);
@@ -96,7 +96,7 @@ body {
   }
   
   .hero {
-    height: calc(100vh - 4rem);
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,7 +110,7 @@ body {
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    
     margin: 0;
     animation: fadeInUp 1.5s ease-out;
   }
@@ -190,4 +190,62 @@ body {
     color: white;
     transform: scale(1.05);
   }
-  
+  .pairing-links {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.pair-link {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #b30000;
+  border-radius: 2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.pair-link:hover {
+  background-color: #b30000;
+  color: white;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.saved-wine-card {
+  position: relative;
+  padding: 1rem;
+  background-color: #fefefe;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.remove-wine-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #d00;
+}
+
+.remove-wine-btn:hover {
+  color: #a00;
+}
